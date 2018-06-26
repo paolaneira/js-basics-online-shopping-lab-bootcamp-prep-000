@@ -29,7 +29,8 @@ function viewCart() {
   else {
   const line3 = ", and " + Object.keys(cart2[cart2.length-1]) + "at $" + Object.keys(cart2[cart2.length-1]) + "."
   for (let i=0; i<cart2.length-1; i++) {
-    var line2[i] =  Object.keys(cart2[i]) + " at $" + Object.values(cart2[i])
+    var line2 = []
+    var line2 =  Object.keys(cart2[i]) + " at $" + Object.values(cart2[i])
     }
     return line + line2 + line3
   }

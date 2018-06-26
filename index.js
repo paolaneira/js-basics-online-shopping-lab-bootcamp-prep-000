@@ -20,8 +20,8 @@ function viewCart() {
   const line = "In your cart, you have "
   var itemObj2 = {[item]:price}
   var cart2= cart.push(itemObj2)
-  If (cart2.length === 0) {
-    console.log("Your shopping cart is empty")
+  If (cart2.length == 0) {
+    return "Your shopping cart is empty"
   }
   else if (cart2.length === 1) {
     return line + Object.keys(cart2) + " at $" + Object.values(cart2) + "."

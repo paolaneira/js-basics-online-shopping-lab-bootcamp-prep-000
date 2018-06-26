@@ -5,8 +5,17 @@ function getCart() {
  return cart;
 }
 
+function getCart2() {
+ return cart2;
+}
+
 function setCart(c) {
   cart = c;
+  return cart;
+}
+
+function setCart2(c) {
+  cart2 = c;
   return cart;
 }
 

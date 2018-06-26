@@ -32,7 +32,7 @@ function viewCart() {
     var line2[i] =  Object.keys(cart2[i]) + " at $" + Object.values(cart2[i])
     }
     return line + line2 + line3
-  } 
+  }
 }
 
 function total() {

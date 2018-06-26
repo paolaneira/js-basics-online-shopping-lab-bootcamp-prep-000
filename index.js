@@ -29,8 +29,8 @@ function addToCart(item) {
 function viewCart() {
   const line = "In your cart, you have "
   var itemObj2 = {[item]:price}
-  var cart2= cart.push(itemObj2)
-  if (cart2.length === 0) {
+  var cart= cart.push(itemObj2)
+  if (cart.length === 0) {
     return "Your shopping cart is empty"
   }
   else if (cart2.length === 1) {
